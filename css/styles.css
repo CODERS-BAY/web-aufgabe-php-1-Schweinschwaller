@@ -1,0 +1,83 @@
+/* #region global*/
+/* https://css-tricks.com/box-sizing/ */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* #endregion global*/
+/* #region header */
+header div{
+    background-color: rgb(10, 10, 10);
+
+    height: 10em;
+    width: 100%;
+    min-width: 10em;
+
+    background-position: left bottom;
+    background-size: cover;
+
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+header h1{
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: bold;
+    
+    color: white;
+
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.6);
+    text-align: left;
+    text-transform: uppercase;
+    
+    line-height: 1.1em;
+    
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 5%;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+    visibility:  visible;
+    display: inline-block;
+
+    width: 300px;
+}
+/* #endregion header */
+
+/* #region body */
+body{
+    background-color: rgb(240, 240, 240);
+    color: rgb(50, 50, 50);
+   }
+/* #endregion body */
+
+main p,
+main button,
+main input,
+.txt{
+    margin-left: 2rem;
+    font-size: 150%;
+}
+
+.specification{
+  background-color: #a5b1c2;
+}
+
+.specification p:last-child{
+  padding-bottom: 1rem;
+}
+
+h2{
+  padding-top: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+table td{
+  text-align: center;
+}
